@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 LazyVim.safe_keymap_set({ "n", "x" }, "-", "'$'", { desc = "Line", expr = true, silent = true })
+vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
